@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Tabs Box</title>
+
+		<link rel="stylesheet" type="text/css" href="./styles/reset.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="./styles/style.css" media="all" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../versions/tabsbox_0.3.js"></script>
+		<script type="text/javascript">
+		// <![CDATA[
+			
+			$(document).ready(function() {
+				
+				$("#tabsBox").tabsBox({
+					showType:     "fade",
+					showDuration: "slow",
+					hideType:     "fade",
+					hideDuration: 400
+				});
+				
+			});
+			
+		//]]>
+		</script>
+
+	</head>
+	
+	<body>
+
+		<div id="container">
+			<div id="header"><h1>Tabs <span>Box</span></h1></div>
+			
+			<div id="content">
+				
+				<div id="tabsBox">
+				
+					<ul class="tabs">
+						<li class="selected"><a href="#" id="tab-tab1">Tab One</a></li>
+						<li><a href="#" id="tab-tab2">Tab Two</a></li>
+						<li><a href="#" id="tab-tab3">Tab Three</a></li>
+						<li><a href="#" id="tab-tab4">Tab Four</a></li>
+					</ul>
+					
+					
+					<div class="contents">
+						
+						<div id="tab1" class="tab-content">
+						
+							<h3>Tab 1: some text</h3>
+							<p>Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante.Lorem ipsum dolor sit amet enim. Cras interdum wisi bibendum porttitor. 
+								Aenean feugiat tempus. Pellentesque habitant morbi tristique senectus et malesuada et, scelerisque sem. 
+								Nulla a nibh. Cras luctus nisl. </p>
+						
+						</div>
+						
+						<div id="tab2" class="tab-content">
+						
+							<h3>Tab 2: some more text</h3>
+							<p>Lorem ipsum dolor sit amet enim. Cras interdum wisi bibendum porttitor. 
+								Aenean feugiat tempus. Pellentesque habitant morbi tristique senectus et malesuada et, scelerisque sem. 
+								Nulla a nibh. Cras luctus nisl. Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante. Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante.</p>
+						</div>
+						
+						<div id="tab3" class="tab-content">
+						
+							<h3>Tab 3: with images</h3>
+							<p><img src="./images/img1.jpg" alt="Image 1" /> Lorem ipsum dolor sit amet enim. Cras interdum wisi bibendum porttitor. 
+								Aenean feugiat tempus. Pellentesque habitant morbi tristique senectus et malesuada et, scelerisque sem. 
+								Nulla a nibh. Cras luctus nisl. Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante.</p>
+						</div>
+						
+						<div id="tab4" class="tab-content">
+						
+							<h3>Tab 4: and some more text</h3>
+							<p><img src="./images/img2.jpg" alt="Image 2" /> Lorem ipsum dolor sit amet enim. Cras interdum wisi bibendum porttitor. 
+								Aenean feugiat tempus. Pellentesque habitant morbi tristique senectus et malesuada et, scelerisque sem. 
+								Nulla a nibh. Cras luctus nisl. Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante. Pellentesque aliquam ut, tristique senectus et lectus. 
+								Mauris ullamcorper sem vestibulum sapien, tempus ipsum. Fusce imperdiet quis, placerat nisl sit amet mauris. 
+								Pellentesque vel molestie nisl. Proin adipiscing quam congue eget, ante.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+</html>
+
+

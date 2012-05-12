@@ -1,0 +1,150 @@
+body {
+	font: normal normal normal 13px Arial, Helvetica, sans-serif;
+	background: black url(../images/bg.gif) repeat-y scroll center top;
+	text-align: center;
+	color: #e4e4e4;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 4em;
+}
+
+h3 {
+	color: #f1f1f1;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 0 0 7px;
+	padding: 0 0 4px;
+	border-bottom: 1px solid #424242;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	/*border-left: 4px solid #AFA8A5;
+	border-right: 4px solid #AFA8A5;
+	background-color: #000000;*/
+	margin: 0px auto;
+	padding: 0px 30px 30px;
+	text-align: left;
+	width: 770px;
+}
+
+#header {
+	text-align: left;
+	padding: 30px 20px 0px;
+	height: 120px;
+}
+
+#header h1 {
+	margin: 0;
+	color: #cacaca;
+}
+
+#header h1 span {
+	color: #ffffff;
+	bottom: -23px;
+	left: -8px;
+	position: relative;
+}
+
+/**
+ * =tabsBox
+ * ---------------------------------------------- */
+#tabsBox {
+	margin: 0px 0 0 0;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#tabsBox .tabs {
+	background: transparent url(../images/tabsbg.gif) repeat-x scroll 0 bottom;
+	height: 34px;
+	overflow: hidden;
+	display: block;
+	padding: 0 0 0 0px;
+	margin: 0px 0px 16px 0px;
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#tabsBox .tabs li {
+	display: block;
+	float: left;
+	height: 34px;
+	margin: 0 0px 0 0;
+}
+
+#tabsBox .tabs li a {
+	display: block;
+	padding: 10px 22px 10px 22px;
+	color: #FEFEFE;
+	text-decoration: none;
+}
+
+#tabsBox .tabs li.first a {
+	padding-left: 19px;
+	background: none;
+}
+
+#tabsBox .tabs li.selected {
+	background: transparent url(../images/tabsbgs.gif) repeat-x scroll 0 0;
+}
+
+#tabsBox .tabs li a:hover {
+	color: #fffcea;
+	padding-top: 9px;
+	padding-bottom: 11px;
+}
+
+#tabsBox .tabs li.selected a:hover {
+	color: #FFFFFF;
+}
+
+
+#tabsBox .contents {
+	overflow: hidden;
+	padding: 0 0 0px;
+	min-height: 300px;
+	position: relative;
+}
+
+.tab-content {
+	padding: 10px 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tab-content h3 {
+	padding-left: 5px;
+	margin-left: -5px;
+}
+
+.tab-content p {
+	line-height: 19px;
+	overflow: hidden;
+}
+
+.tab-content p img {
+	float: left;
+	padding: 2px;
+	border: 1px solid #959595;
+	margin: 0 10px 10px 0;
+}
+
+#tabsBox #tab1 {
+	display: block;
+}
+
+#tabsBox #tab2,
+#tabsBox #tab3,
+#tabsBox #tab4 {
+	display: none;
+}
