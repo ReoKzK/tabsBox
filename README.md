@@ -1,8 +1,10 @@
-## tabsBox - simple jquery plugin creating box with tabs
+tabsBox - simple jquery plugin creating box with tabs
+=====================================================
 
 Sample usage:
+-------------
 
-	Javascript:
+###Javascript:
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/tabsbox_0.3.js"></script>
@@ -23,7 +25,7 @@ Sample usage:
 		//]]>
 		</script>
 	
-	HTML structure:
+###HTML structure:
 	
 				<div id="tabsBox">
 				
