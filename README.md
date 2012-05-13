@@ -19,7 +19,14 @@ Sample usage:
 				showType:     "fade",   // Type of showing
 				showDuration: "slow",   // Duration of showing
 				hideType:     "fade",   // Type of hiding
-				hideDuration: 400       // Duration of hiding
+				hideDuration: 400,      // Duration of hiding
+				
+				// - Configuration of html structure - also default values -
+				
+				menu:                        "ul.tabs",      // Element inside main div containing menu
+				menuItemSorrounding:         "li",		     // Type of html element inside "menu", sorrounding anchor using as menu item
+				menuItemSorroundingSelClass: "selected",     // Class of selected menu item
+				contents:                    "div.contents"  // Element containing tab's elements
 			});
 				
 		});
@@ -53,10 +60,14 @@ Sample usage:
 					Aenean feugiat tempus. Pellentesque habitant morbi tristique senectus et malesuada et, scelerisque sem. 
 					Nulla a nibh. Cras luctus nisl. Cras a felis. Pellentesque aliquam ut, tristique senectus et lectus. 
 					Mauris ullamcorper sem vestibulum sapien, tempus ipsum.</p>
+					
 			</div>
 						
 		</div>
 					
 	</div>
+	
+HTML structure should have one main element and two inside - one for menu and one for tab's containers.
+Every tab container must have id named after anchor tab, for example: anchor tab with id="infoTab", tab container with id="tab-infoTab".
 	
 		
